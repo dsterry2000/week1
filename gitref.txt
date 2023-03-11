@@ -1,0 +1,28 @@
+git-scm.com/docs/git#_git_commands --> complete list of git commands
+
+docs.github.com/en --> quickstarts, glossary, etc on github
+
+Use these commands as a reference when you are first connecting a git repository on your local computer to a remote repository on your Github.com account
+
+git status (run after every git command to see state of your repository)type
+
+Pro-Tip - you can copy and paste this whole block of code as one chunk to save time.
+
+git init
+
+git add README.md
+
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/YourGitHubUserName/YourGitHubRepoName
+
+git push -u origin main
+Once your local repository is connected to the remote repository, you can use the commands below as a framework for saving your changes at regular intervals.
+
+git add .
+
+git commit -m "second commit"
+
+git push
